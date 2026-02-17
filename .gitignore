@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+__MACOSX/
+Thumbs.db
+
+# Submissions
+*.zip
+*_submission.pdf
+
+# Data files (too large for git)
+*.pt
+*.pth
+*.key
+*.mp4
+*.gif
+assignment2/data/
+assignment2/pretrained_model/
+assignment2/results/
+assignment2/images/
+assignment1/dl/datasets/
+assignment2/dl/datasets/
+assignment3/dl/datasets/
+assignment3/dl/saved/
+assignment3/dl/exp/
+
+# Compiled extensions
+*.c
+!assignment1/dl/im2col.py
+assignment1/dl/im2col_cython.c
+
+# Build artifacts
+assignment1/dl/build/
+
+# Utility scripts (not part of the course work)
+makepdf.py
+collectSubmission.sh
+collect_submission.ipynb
